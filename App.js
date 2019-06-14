@@ -128,29 +128,6 @@ class Dashboard extends React.Component {
       </AppBar>
     );
 
-  export default App;
-
-      <div id="dashboard">
-        <div className="menu">
-      
-        <MenuItem onClick={this.handleClose}>
-          <NavLink exact to="/CardStack">
-            Home
-          </NavLink>
-          </MenuItem>
-          <MenuItem onClick={this.handleClose}>
-          <NavLink exact to="/Article" >
-            Article
-          </NavLink>
-          </MenuItem>
-        </div>
-        <div className="content">
-          <Route exact path="/CardStack" component={CardStack} />
-          <Route exact path="/Article" component={Article} />
-        </div>
-      </div>
-      </AppBar>
-    );
   }
 
   _renderWeb3Components() {
