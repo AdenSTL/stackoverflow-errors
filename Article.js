@@ -7,7 +7,7 @@ import { withStyles } from '@material-ui/core/styles';
  class Article extends React.Component {
   render() {
       return (
-        {/* sorting articles by score */}
+        /* sorting articles by score */
         articles.sort(function (a, b) {
           return a.score - b.score;
         });
